@@ -5,7 +5,7 @@
 </head>
 <body>
     <div class="container-xxl bg-white p-0">
-   
+        
         <!-- Spinner Start -->
         @include('components.spinner')
         <!-- Spinner End -->
@@ -14,9 +14,7 @@
         <!-- Navbar Start -->
         @include('components.navBar')
         <!-- Navbar End -->
-     
-       
-
+  
         @yield('content')
 
 

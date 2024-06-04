@@ -1,8 +1,9 @@
 @extends('layouts.main')
 @section('title','Kider Preschool')
 @section('content')
-         <!-- Carousel Start -->
-         @include('components.carousel')
+
+        <!-- Carousel Start -->
+        @include('components.carousel')
         <!-- Carousel End -->
 
         <!-- Facilities Start -->
@@ -11,17 +12,17 @@
 
 
         <!-- About Start -->
-        @include('components.about')
+       @include('components.about')
         <!-- About End -->
 
 
         <!-- Call To Action Start -->
-        @include('components.call-to-action')
+       @include('components.call-to-action')
         <!-- Call To Action End -->
 
 
         <!-- Classes Start -->
-        @include('components.classes')
+       @include('components.classes')
         <!-- Classes End -->
 
 
@@ -38,5 +39,4 @@
         <!-- Testimonial Start -->
         @include('components.testimonial')
         <!-- Testimonial End -->
-
-@endsecion
+@endsection
