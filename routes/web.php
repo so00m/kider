@@ -15,7 +15,7 @@ Route::get('/classes',[ShowPageController::class,'classes'])->name('classes');
 Route::get('/contact',[ShowPageController::class,'contact'])->name('contact');
 Route::get('/facility',[ShowPageController::class,'facility'])->name('facility');
 Route::get('/team',[ShowPageController::class,'team'])->name('team');
-Route::get('/404',[ShowPageController::class,'errorpage'])->name('errorpage');
+Route::get('/404',[ShowPageController::class,'errorpage'])->name('404');
 Route::get('/testimonial',[ShowPageController::class,'testimonial'])->name('testimonial');
 
 
